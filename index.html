@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HC Couto Veículos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>HC Couto Veículos</h1>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#cars">Carros</a></li>
+<li><a href="#contact">Fale Conosco</a></li>
+<li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h2>Encontre o carro dos seus sonhos!</h2>
+<p>Qualidade e confiança em cada veículo.</p>
+</section>
+
+<div id="login-form">
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Senha">
+<button id="login-btn">Login</button>
+</div>
+
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Pesquise um carro...">
+<div id="search-results"></div>
+</div>
+
+<div id="filters">
+<select id="brand-filter">
+<option value="">Marca</option>
+<option value="Honda">Honda</option>
+<option value="Hyundai">Hyundai</option>
+<option value="Ford">Ford</option>
+<option value="Chevrolet">Chevrolet</option>
+<option value="Toyota">Toyota</option>
+<option value="Nissan">Nissan</option>
+</select>
+<select id="type-filter">
+<option value="">Tipo</option>
+<option value="Sedan">Sedan</option>
+<option value="Hatch">Hatch</option>
+<option value="SUV">SUV</option>
+</select>
+</div>
+
+<section id="cars">
+<h2 style="text-align:center;margin-top:40px;">Nossos Carros</h2>
+<div class="carousel-container" id="carousel"></div>
+</section>
+
+<div class="modal" id="modal">
+<img src="" alt="Carro Ampliado" id="modal-img">
+</div>
+
+<div id="scroll-top">&#8679;</div>
+
+<footer>
+&copy; 2025 HC Couto Veículos. Todos os direitos reservados.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
