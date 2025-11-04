@@ -1,2 +1,2 @@
 # concessionaria
-projeto iciante de concessionaria
+projeto iniciante de concessionaria
